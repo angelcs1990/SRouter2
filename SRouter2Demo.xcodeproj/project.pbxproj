@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4546BEF01E0D06F6009AA1BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546BEEF1E0D06F6009AA1BA /* main.m */; };
+		4546BEF31E0D06F6009AA1BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546BEF21E0D06F6009AA1BA /* AppDelegate.m */; };
+		4546BEF61E0D06F6009AA1BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546BEF51E0D06F6009AA1BA /* ViewController.m */; };
+		4546BEF91E0D06F6009AA1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4546BEF71E0D06F6009AA1BA /* Main.storyboard */; };
+		4546BEFB1E0D06F6009AA1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4546BEFA1E0D06F6009AA1BA /* Assets.xcassets */; };
+		4546BEFE1E0D06F6009AA1BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4546BEFC1E0D06F6009AA1BA /* LaunchScreen.storyboard */; };
+		4546BF0E1E0D0B53009AA1BA /* SR2Context.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546BF0D1E0D0B53009AA1BA /* SR2Context.m */; };
+		4546BF191E0D1439009AA1BA /* SR2Launcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546BF181E0D1439009AA1BA /* SR2Launcher.m */; };
+		4546BF1C1E0D253E009AA1BA /* SR2Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546BF1B1E0D253E009AA1BA /* SR2Cache.m */; };
+		4546BF201E0D27E6009AA1BA /* SR2Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 4546BF1F1E0D27E6009AA1BA /* SR2Config.m */; };
+		4547B33E1E2768EA00ED83E6 /* ModuleA+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547B33B1E2768EA00ED83E6 /* ModuleA+Action.m */; };
+		4547B33F1E2768EA00ED83E6 /* ModuleB+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = 4547B33D1E2768EA00ED83E6 /* ModuleB+Action.m */; };
+		4547B3471E27716000ED83E6 /* SR2Default.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4547B3451E27716000ED83E6 /* SR2Default.plist */; };
+		4547B3481E27716000ED83E6 /* SR2Demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4547B3461E27716000ED83E6 /* SR2Demo.plist */; };
+		4551AA071E10D25800CA9811 /* SR2Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4551AA061E10D25800CA9811 /* SR2Manager.m */; };
+		4551AA0B1E1122FD00CA9811 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4551AA0A1E1122FD00CA9811 /* OneViewController.m */; };
+		45598CEE1E13926900C6BF10 /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45598CED1E13926900C6BF10 /* ModuleBViewController.m */; };
+		45598D001E13CAE100C6BF10 /* ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 45598CFC1E13CAE100C6BF10 /* ModuleA.m */; };
+		45598D011E13CAE100C6BF10 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 45598CFF1E13CAE100C6BF10 /* UIView+Toast.m */; };
+		45636D321E0E1E4E00ED688D /* SR2SubscribedMsgMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 45636D311E0E1E4E00ED688D /* SR2SubscribedMsgMgr.m */; };
+		45636D411E0E551300ED688D /* SR2CoreServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45636D3C1E0E551300ED688D /* SR2CoreServer.m */; };
+		45636D421E0E551300ED688D /* SR2LocalHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 45636D3E1E0E551300ED688D /* SR2LocalHandler.m */; };
+		45636D431E0E551300ED688D /* SR2RemoteHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 45636D401E0E551300ED688D /* SR2RemoteHandler.m */; };
+		457213181E8506B4002EB3AC /* NSObject+SR2Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 457213171E8506B4002EB3AC /* NSObject+SR2Manager.m */; };
+		457B260C1E68304B007C94A8 /* SR2Manager+Uncommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 457B260B1E68304B007C94A8 /* SR2Manager+Uncommon.m */; };
+		458148101E6D452D007E147D /* NSObject+SRouter2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4581480F1E6D452D007E147D /* NSObject+SRouter2.m */; };
+		4583EAA21E33006D0066D2F3 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4583EAA11E33006D0066D2F3 /* GroupViewController.m */; };
+		4583EAA51E330B3D0066D2F3 /* GroupHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4583EAA41E330B3D0066D2F3 /* GroupHeaderView.m */; };
+		4583EAA81E33121D0066D2F3 /* GroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4583EAA71E33121D0066D2F3 /* GroupCell.m */; };
+		459A7EF71E66783E009775AE /* SR2Manager+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 459A7EF61E66783E009775AE /* SR2Manager+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4546BEEB1E0D06F6009AA1BA /* SRouter2Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRouter2Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4546BEEF1E0D06F6009AA1BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4546BEF11E0D06F6009AA1BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4546BEF21E0D06F6009AA1BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4546BEF41E0D06F6009AA1BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4546BEF51E0D06F6009AA1BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4546BEF81E0D06F6009AA1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4546BEFA1E0D06F6009AA1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4546BEFD1E0D06F6009AA1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4546BEFF1E0D06F6009AA1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4546BF091E0D08DB009AA1BA /* SR2SubscriptionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2SubscriptionProtocol.h; sourceTree = "<group>"; };
+		4546BF0A1E0D0917009AA1BA /* SR2ServerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2ServerProtocol.h; sourceTree = "<group>"; };
+		4546BF0B1E0D0941009AA1BA /* SR2ModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2ModuleProtocol.h; sourceTree = "<group>"; };
+		4546BF0C1E0D0B53009AA1BA /* SR2Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2Context.h; sourceTree = "<group>"; };
+		4546BF0D1E0D0B53009AA1BA /* SR2Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SR2Context.m; sourceTree = "<group>"; };
+		4546BF111E0D113F009AA1BA /* SR2ServerCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2ServerCommands.h; sourceTree = "<group>"; };
+		4546BF121E0D115D009AA1BA /* SR2ModuleCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2ModuleCommands.h; sourceTree = "<group>"; };
+		4546BF131E0D1247009AA1BA /* SR2SubscriptionCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2SubscriptionCommands.h; sourceTree = "<group>"; };
+		4546BF171E0D1439009AA1BA /* SR2Launcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2Launcher.h; sourceTree = "<group>"; };
+		4546BF181E0D1439009AA1BA /* SR2Launcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SR2Launcher.m; sourceTree = "<group>"; };
+		4546BF1A1E0D253E009AA1BA /* SR2Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2Cache.h; sourceTree = "<group>"; };
+		4546BF1B1E0D253E009AA1BA /* SR2Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SR2Cache.m; sourceTree = "<group>"; };
+		4546BF1D1E0D279A009AA1BA /* SR2Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2Macro.h; sourceTree = "<group>"; };
+		4546BF1E1E0D27E6009AA1BA /* SR2Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2Config.h; sourceTree = "<group>"; };
+		4546BF1F1E0D27E6009AA1BA /* SR2Config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SR2Config.m; sourceTree = "<group>"; };
+		4547B33A1E2768EA00ED83E6 /* ModuleA+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleA+Action.h"; sourceTree = "<group>"; };
+		4547B33B1E2768EA00ED83E6 /* ModuleA+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ModuleA+Action.m"; sourceTree = "<group>"; };
+		4547B33C1E2768EA00ED83E6 /* ModuleB+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModuleB+Action.h"; sourceTree = "<group>"; };
+		4547B33D1E2768EA00ED83E6 /* ModuleB+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ModuleB+Action.m"; sourceTree = "<group>"; };
+		4547B3421E276CFC00ED83E6 /* ModuleInterfaceHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleInterfaceHeader.h; sourceTree = "<group>"; };
+		4547B3441E276DB100ED83E6 /* TestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProtocol.h; sourceTree = "<group>"; };
+		4547B3451E27716000ED83E6 /* SR2Default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SR2Default.plist; sourceTree = "<group>"; };
+		4547B3461E27716000ED83E6 /* SR2Demo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SR2Demo.plist; sourceTree = "<group>"; };
+		4551AA051E10D25800CA9811 /* SR2Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2Manager.h; sourceTree = "<group>"; };
+		4551AA061E10D25800CA9811 /* SR2Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SR2Manager.m; sourceTree = "<group>"; };
+		4551AA081E1121F400CA9811 /* SRouter2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRouter2.h; sourceTree = "<group>"; };
+		4551AA091E1122FD00CA9811 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		4551AA0A1E1122FD00CA9811 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		4552D7491FBD49C200629CC7 /* SR2Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2Protocol.h; sourceTree = "<group>"; };
+		45598CEC1E13926900C6BF10 /* ModuleBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModuleBViewController.h; path = ModuleB/ModuleBViewController.h; sourceTree = "<group>"; };
+		45598CED1E13926900C6BF10 /* ModuleBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModuleBViewController.m; path = ModuleB/ModuleBViewController.m; sourceTree = "<group>"; };
+		45598CFC1E13CAE100C6BF10 /* ModuleA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleA.m; sourceTree = "<group>"; };
+		45598CFD1E13CAE100C6BF10 /* ModuleA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleA.h; sourceTree = "<group>"; };
+		45598CFE1E13CAE100C6BF10 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		45598CFF1E13CAE100C6BF10 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		45636D301E0E1E4E00ED688D /* SR2SubscribedMsgMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2SubscribedMsgMgr.h; sourceTree = "<group>"; };
+		45636D311E0E1E4E00ED688D /* SR2SubscribedMsgMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SR2SubscribedMsgMgr.m; sourceTree = "<group>"; };
+		45636D331E0E258A00ED688D /* SR2InnerMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2InnerMacro.h; sourceTree = "<group>"; };
+		45636D3B1E0E551300ED688D /* SR2CoreServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2CoreServer.h; sourceTree = "<group>"; };
+		45636D3C1E0E551300ED688D /* SR2CoreServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SR2CoreServer.m; sourceTree = "<group>"; };
+		45636D3D1E0E551300ED688D /* SR2LocalHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2LocalHandler.h; sourceTree = "<group>"; };
+		45636D3E1E0E551300ED688D /* SR2LocalHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SR2LocalHandler.m; sourceTree = "<group>"; };
+		45636D3F1E0E551300ED688D /* SR2RemoteHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SR2RemoteHandler.h; sourceTree = "<group>"; };
+		45636D401E0E551300ED688D /* SR2RemoteHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SR2RemoteHandler.m; sourceTree = "<group>"; };
+		457213161E8506B4002EB3AC /* NSObject+SR2Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SR2Manager.h"; sourceTree = "<group>"; };
+		457213171E8506B4002EB3AC /* NSObject+SR2Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SR2Manager.m"; sourceTree = "<group>"; };
+		457B260A1E68304B007C94A8 /* SR2Manager+Uncommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SR2Manager+Uncommon.h"; sourceTree = "<group>"; };
+		457B260B1E68304B007C94A8 /* SR2Manager+Uncommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SR2Manager+Uncommon.m"; sourceTree = "<group>"; };
+		4581480E1E6D452D007E147D /* NSObject+SRouter2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SRouter2.h"; sourceTree = "<group>"; };
+		4581480F1E6D452D007E147D /* NSObject+SRouter2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SRouter2.m"; sourceTree = "<group>"; };
+		4583EAA01E33006D0066D2F3 /* GroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupViewController.h; sourceTree = "<group>"; };
+		4583EAA11E33006D0066D2F3 /* GroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
+		4583EAA31E330B3D0066D2F3 /* GroupHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupHeaderView.h; sourceTree = "<group>"; };
+		4583EAA41E330B3D0066D2F3 /* GroupHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupHeaderView.m; sourceTree = "<group>"; };
+		4583EAA61E33121D0066D2F3 /* GroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupCell.h; sourceTree = "<group>"; };
+		4583EAA71E33121D0066D2F3 /* GroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupCell.m; sourceTree = "<group>"; };
+		459A7EF51E66783E009775AE /* SR2Manager+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SR2Manager+Extension.h"; sourceTree = "<group>"; };
+		459A7EF61E66783E009775AE /* SR2Manager+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SR2Manager+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4546BEE81E0D06F6009AA1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4546BEE21E0D06F6009AA1BA = {
+			isa = PBXGroup;
+			children = (
+				4546BF071E0D08DB009AA1BA /* SRouter2 */,
+				4546BEED1E0D06F6009AA1BA /* SRouter2Demo */,
+				4546BEEC1E0D06F6009AA1BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4546BEEC1E0D06F6009AA1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4546BEEB1E0D06F6009AA1BA /* SRouter2Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4546BEED1E0D06F6009AA1BA /* SRouter2Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4547B3391E27685F00ED83E6 /* Interface */,
+				45598CE21E13572600C6BF10 /* ModuleA */,
+				45598CD11E13537E00C6BF10 /* ModuleB */,
+				4583EA9F1E3300530066D2F3 /* ModuleC */,
+				4546BEF11E0D06F6009AA1BA /* AppDelegate.h */,
+				4546BEF21E0D06F6009AA1BA /* AppDelegate.m */,
+				4546BEF41E0D06F6009AA1BA /* ViewController.h */,
+				4546BEF51E0D06F6009AA1BA /* ViewController.m */,
+				4551AA091E1122FD00CA9811 /* OneViewController.h */,
+				4551AA0A1E1122FD00CA9811 /* OneViewController.m */,
+				4546BEF71E0D06F6009AA1BA /* Main.storyboard */,
+				4546BEFA1E0D06F6009AA1BA /* Assets.xcassets */,
+				4546BEFC1E0D06F6009AA1BA /* LaunchScreen.storyboard */,
+				4546BEFF1E0D06F6009AA1BA /* Info.plist */,
+				4546BEEE1E0D06F6009AA1BA /* Supporting Files */,
+			);
+			path = SRouter2Demo;
+			sourceTree = "<group>";
+		};
+		4546BEEE1E0D06F6009AA1BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4546BEEF1E0D06F6009AA1BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4546BF071E0D08DB009AA1BA /* SRouter2 */ = {
+			isa = PBXGroup;
+			children = (
+				4551AA081E1121F400CA9811 /* SRouter2.h */,
+				45636D3A1E0E551300ED688D /* serverImp */,
+				4546BF101E0D113F009AA1BA /* Commands */,
+				4546BF081E0D08DB009AA1BA /* protocol */,
+				4546BF0C1E0D0B53009AA1BA /* SR2Context.h */,
+				4546BF0D1E0D0B53009AA1BA /* SR2Context.m */,
+				4546BF171E0D1439009AA1BA /* SR2Launcher.h */,
+				4546BF181E0D1439009AA1BA /* SR2Launcher.m */,
+				4581480E1E6D452D007E147D /* NSObject+SRouter2.h */,
+				4581480F1E6D452D007E147D /* NSObject+SRouter2.m */,
+				4546BF1A1E0D253E009AA1BA /* SR2Cache.h */,
+				4546BF1B1E0D253E009AA1BA /* SR2Cache.m */,
+				4551AA051E10D25800CA9811 /* SR2Manager.h */,
+				4551AA061E10D25800CA9811 /* SR2Manager.m */,
+				459A7EF51E66783E009775AE /* SR2Manager+Extension.h */,
+				459A7EF61E66783E009775AE /* SR2Manager+Extension.m */,
+				457213161E8506B4002EB3AC /* NSObject+SR2Manager.h */,
+				457213171E8506B4002EB3AC /* NSObject+SR2Manager.m */,
+				457B260A1E68304B007C94A8 /* SR2Manager+Uncommon.h */,
+				457B260B1E68304B007C94A8 /* SR2Manager+Uncommon.m */,
+				45636D301E0E1E4E00ED688D /* SR2SubscribedMsgMgr.h */,
+				45636D311E0E1E4E00ED688D /* SR2SubscribedMsgMgr.m */,
+				4546BF1D1E0D279A009AA1BA /* SR2Macro.h */,
+				45636D331E0E258A00ED688D /* SR2InnerMacro.h */,
+				4546BF1E1E0D27E6009AA1BA /* SR2Config.h */,
+				4546BF1F1E0D27E6009AA1BA /* SR2Config.m */,
+			);
+			path = SRouter2;
+			sourceTree = "<group>";
+		};
+		4546BF081E0D08DB009AA1BA /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				4546BF091E0D08DB009AA1BA /* SR2SubscriptionProtocol.h */,
+				4546BF0A1E0D0917009AA1BA /* SR2ServerProtocol.h */,
+				4546BF0B1E0D0941009AA1BA /* SR2ModuleProtocol.h */,
+				4552D7491FBD49C200629CC7 /* SR2Protocol.h */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		4546BF101E0D113F009AA1BA /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				4546BF111E0D113F009AA1BA /* SR2ServerCommands.h */,
+				4546BF121E0D115D009AA1BA /* SR2ModuleCommands.h */,
+				4546BF131E0D1247009AA1BA /* SR2SubscriptionCommands.h */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		4547B3391E27685F00ED83E6 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				4547B3421E276CFC00ED83E6 /* ModuleInterfaceHeader.h */,
+				4547B3451E27716000ED83E6 /* SR2Default.plist */,
+				4547B3461E27716000ED83E6 /* SR2Demo.plist */,
+				4547B3431E276D6E00ED83E6 /* Module */,
+				4547B3401E27691100ED83E6 /* ModuleA */,
+				4547B3411E27692200ED83E6 /* ModuleB */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		4547B3401E27691100ED83E6 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				4547B33A1E2768EA00ED83E6 /* ModuleA+Action.h */,
+				4547B33B1E2768EA00ED83E6 /* ModuleA+Action.m */,
+			);
+			name = ModuleA;
+			sourceTree = "<group>";
+		};
+		4547B3411E27692200ED83E6 /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				4547B33C1E2768EA00ED83E6 /* ModuleB+Action.h */,
+				4547B33D1E2768EA00ED83E6 /* ModuleB+Action.m */,
+			);
+			name = ModuleB;
+			sourceTree = "<group>";
+		};
+		4547B3431E276D6E00ED83E6 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4547B3441E276DB100ED83E6 /* TestProtocol.h */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		45598CD11E13537E00C6BF10 /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				45598CEC1E13926900C6BF10 /* ModuleBViewController.h */,
+				45598CED1E13926900C6BF10 /* ModuleBViewController.m */,
+			);
+			name = ModuleB;
+			sourceTree = "<group>";
+		};
+		45598CE21E13572600C6BF10 /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				45598CFC1E13CAE100C6BF10 /* ModuleA.m */,
+				45598CFD1E13CAE100C6BF10 /* ModuleA.h */,
+				45598CFE1E13CAE100C6BF10 /* UIView+Toast.h */,
+				45598CFF1E13CAE100C6BF10 /* UIView+Toast.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		45636D3A1E0E551300ED688D /* serverImp */ = {
+			isa = PBXGroup;
+			children = (
+				45636D3B1E0E551300ED688D /* SR2CoreServer.h */,
+				45636D3C1E0E551300ED688D /* SR2CoreServer.m */,
+				45636D3D1E0E551300ED688D /* SR2LocalHandler.h */,
+				45636D3E1E0E551300ED688D /* SR2LocalHandler.m */,
+				45636D3F1E0E551300ED688D /* SR2RemoteHandler.h */,
+				45636D401E0E551300ED688D /* SR2RemoteHandler.m */,
+			);
+			path = serverImp;
+			sourceTree = "<group>";
+		};
+		4583EA9F1E3300530066D2F3 /* ModuleC */ = {
+			isa = PBXGroup;
+			children = (
+				4583EAA01E33006D0066D2F3 /* GroupViewController.h */,
+				4583EAA11E33006D0066D2F3 /* GroupViewController.m */,
+				4583EAA31E330B3D0066D2F3 /* GroupHeaderView.h */,
+				4583EAA41E330B3D0066D2F3 /* GroupHeaderView.m */,
+				4583EAA61E33121D0066D2F3 /* GroupCell.h */,
+				4583EAA71E33121D0066D2F3 /* GroupCell.m */,
+			);
+			path = ModuleC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4546BEEA1E0D06F6009AA1BA /* SRouter2Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4546BF021E0D06F6009AA1BA /* Build configuration list for PBXNativeTarget "SRouter2Demo" */;
+			buildPhases = (
+				4546BEE71E0D06F6009AA1BA /* Sources */,
+				4546BEE81E0D06F6009AA1BA /* Frameworks */,
+				4546BEE91E0D06F6009AA1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRouter2Demo;
+			productName = SRouter2Demo;
+			productReference = 4546BEEB1E0D06F6009AA1BA /* SRouter2Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4546BEE31E0D06F6009AA1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = cs;
+				TargetAttributes = {
+					4546BEEA1E0D06F6009AA1BA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B9EQRGN28Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4546BEE61E0D06F6009AA1BA /* Build configuration list for PBXProject "SRouter2Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4546BEE21E0D06F6009AA1BA;
+			productRefGroup = 4546BEEC1E0D06F6009AA1BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4546BEEA1E0D06F6009AA1BA /* SRouter2Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4546BEE91E0D06F6009AA1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4546BEFE1E0D06F6009AA1BA /* LaunchScreen.storyboard in Resources */,
+				4547B3481E27716000ED83E6 /* SR2Demo.plist in Resources */,
+				4546BEFB1E0D06F6009AA1BA /* Assets.xcassets in Resources */,
+				4547B3471E27716000ED83E6 /* SR2Default.plist in Resources */,
+				4546BEF91E0D06F6009AA1BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4546BEE71E0D06F6009AA1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				457B260C1E68304B007C94A8 /* SR2Manager+Uncommon.m in Sources */,
+				4547B33F1E2768EA00ED83E6 /* ModuleB+Action.m in Sources */,
+				4546BEF61E0D06F6009AA1BA /* ViewController.m in Sources */,
+				45598CEE1E13926900C6BF10 /* ModuleBViewController.m in Sources */,
+				4583EAA81E33121D0066D2F3 /* GroupCell.m in Sources */,
+				4583EAA21E33006D0066D2F3 /* GroupViewController.m in Sources */,
+				4546BF0E1E0D0B53009AA1BA /* SR2Context.m in Sources */,
+				4546BEF31E0D06F6009AA1BA /* AppDelegate.m in Sources */,
+				4547B33E1E2768EA00ED83E6 /* ModuleA+Action.m in Sources */,
+				4583EAA51E330B3D0066D2F3 /* GroupHeaderView.m in Sources */,
+				4546BF201E0D27E6009AA1BA /* SR2Config.m in Sources */,
+				45598D011E13CAE100C6BF10 /* UIView+Toast.m in Sources */,
+				4551AA0B1E1122FD00CA9811 /* OneViewController.m in Sources */,
+				45636D411E0E551300ED688D /* SR2CoreServer.m in Sources */,
+				45598D001E13CAE100C6BF10 /* ModuleA.m in Sources */,
+				45636D321E0E1E4E00ED688D /* SR2SubscribedMsgMgr.m in Sources */,
+				4546BEF01E0D06F6009AA1BA /* main.m in Sources */,
+				4546BF1C1E0D253E009AA1BA /* SR2Cache.m in Sources */,
+				45636D421E0E551300ED688D /* SR2LocalHandler.m in Sources */,
+				4546BF191E0D1439009AA1BA /* SR2Launcher.m in Sources */,
+				4551AA071E10D25800CA9811 /* SR2Manager.m in Sources */,
+				45636D431E0E551300ED688D /* SR2RemoteHandler.m in Sources */,
+				459A7EF71E66783E009775AE /* SR2Manager+Extension.m in Sources */,
+				458148101E6D452D007E147D /* NSObject+SRouter2.m in Sources */,
+				457213181E8506B4002EB3AC /* NSObject+SR2Manager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4546BEF71E0D06F6009AA1BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4546BEF81E0D06F6009AA1BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4546BEFC1E0D06F6009AA1BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4546BEFD1E0D06F6009AA1BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4546BF001E0D06F6009AA1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4546BF011E0D06F6009AA1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4546BF031E0D06F6009AA1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B9EQRGN28Y;
+				INFOPLIST_FILE = SRouter2Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.SRouter2Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4546BF041E0D06F6009AA1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B9EQRGN28Y;
+				INFOPLIST_FILE = SRouter2Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs.SRouter2Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4546BEE61E0D06F6009AA1BA /* Build configuration list for PBXProject "SRouter2Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4546BF001E0D06F6009AA1BA /* Debug */,
+				4546BF011E0D06F6009AA1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4546BF021E0D06F6009AA1BA /* Build configuration list for PBXNativeTarget "SRouter2Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4546BF031E0D06F6009AA1BA /* Debug */,
+				4546BF041E0D06F6009AA1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4546BEE31E0D06F6009AA1BA /* Project object */;
+}

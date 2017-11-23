@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>moduleName</key>
+		<string>ModuleA</string>
+		<key>moduleType</key>
+		<string>2</string>
+		<key>supportRemote</key>
+		<false/>
+		<key>macroName</key>
+		<string>keyModuleClassA</string>
+		<key>shortName</key>
+		<string>MA</string>
+		<key>cmds</key>
+		<array>
+			<dict>
+				<key>cmd</key>
+				<string>ModuleA_ShowToast</string>
+				<key>params</key>
+				<dict>
+					<key>keySR2_Params_Cmd</key>
+					<string>子命令</string>
+					<key>keySR2_Params_Target</key>
+					<string>对象</string>
+					<key>keySR2_Params_Params</key>
+					<string>参数</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>cmd</key>
+				<string>ModuleA_ShowImg</string>
+			</dict>
+			<dict>
+				<key>cmd</key>
+				<string>ModuleA_ShowAlert</string>
+			</dict>
+		</array>
+		<key>return</key>
+		<dict/>
+	</dict>
+</array>
+</plist>
